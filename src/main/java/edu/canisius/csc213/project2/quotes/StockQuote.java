@@ -11,18 +11,6 @@ public class StockQuote {
     private long timestamp;
     private double tradingVolume;
 
-    public StockQuote() {
-        this.symbol = "";
-        this.closePrice = 0.0;
-        this.highestPrice = 0.0;
-        this.lowestPrice = 0.0;
-        this.numberOfTransactions = 0;
-        this.openPrice = 0.0;
-        this.timestamp = 0;
-        this.tradingVolume = 0.0;
-    }
-
-
     public StockQuote(String symbol, double closePrice, double highestPrice, double lowestPrice,
             int numberOfTransactions, double openPrice, long timestamp, double tradingVolume) {
         this.symbol = symbol;
